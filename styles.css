@@ -1,38 +1,48 @@
 body {
-    font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  color: #fff;
 }
 
-.contact-form {
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  width: 100%;
+  max-width: 500px;
+  background: #2d2d2d;
+  border-radius: 2em;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 
-.contact-form label {
-    display: block;
-    margin-bottom: 10px;
+label, input {
+  width: 100%;
+  padding: 0.5em;
 }
 
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+input {
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  padding-left: 1em;
+  font-size: 1em;
+  background-color: #4a4a4a;
+  color: #fff;
 }
 
-.contact-form input[type="submit"] {
-    padding: 10px 20px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
+input[type="button"] {
+  cursor: pointer;
+  background-color: #008CBA;
+  color: white;
 }
 
-.contact-form input[type="submit"]:hover {
-    background-color: #0056b3;
+input[type="button"]:hover {
+  background-color: #007B9A;
 }
