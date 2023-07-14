@@ -5,8 +5,9 @@ body {
   min-height: 100vh;
   margin: 0;
   background-color: #121212;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   color: #fff;
+  font-style: bold
 }
 
 form {
