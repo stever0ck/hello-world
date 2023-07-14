@@ -18,7 +18,7 @@ function sendEmail() {
   var name = document.getElementById('name').value;
   var phone = document.getElementById('phone').value;
   var subject = 'Contact form submission from ' + name;
-  var body = 'Name: ' + name + '%0D%0A' + 'Phone: ' + phone;
+  var body = 'Name: ' + name + ' ' + 'Phone: ' + phone;
   window.location.href = 'mailto:steve@theyellowwoodseries.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 }
 </script>
