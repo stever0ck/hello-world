@@ -5,9 +5,9 @@ body {
   min-height: 100vh;
   margin: 0;
   background-color: #121212;
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
   color: #fff;
-  font-style: bold
 }
 
 form {
@@ -40,10 +40,10 @@ input {
 
 input[type="button"] {
   cursor: pointer;
-  background-color: #008CBA;
-  color: white;
+  background-color: #fbec53;
+  color: #121212;
 }
 
 input[type="button"]:hover {
-  background-color: #007B9A;
+  background-color: #e8d048;
 }
