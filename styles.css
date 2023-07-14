@@ -15,7 +15,7 @@ form {
   flex-direction: column;
   align-items: center;
   padding: 1em;
-  width: 100%;
+  width: 90%;
   max-width: 500px;
   background: #2d2d2d;
   border-radius: 2em;
@@ -46,4 +46,15 @@ input[type="button"] {
 
 input[type="button"]:hover {
   background-color: #e8d048;
+}
+
+/* Adjusting form for smaller screen sizes */
+@media (max-width: 600px) {
+  form {
+    padding: 0.5em;
+  }
+
+  input {
+    font-size: 0.9em;
+  }
 }
