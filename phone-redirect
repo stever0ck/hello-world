@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Phone Redirect</title>
+<meta http-equiv="refresh" content="0; url=tel:+353864121318" />
+</head>
+<body>
+<p>If you are not redirected in five seconds, <a href="tel:+353864121318">click here</a>.</p>
+</body>
+</html>
