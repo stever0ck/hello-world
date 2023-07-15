@@ -33,7 +33,7 @@ input {
   border-radius: 25px;
   outline: none;
   font-size: 4vh; /* use viewport height to scale input size */
-  padding: 2vh 1em; /* use viewport height to scale padding */
+  padding: 2vh 5%; /* added same padding as form */
   margin-bottom: 2vh; /* use viewport height to scale margin */
   background-color: #4a4a4a;
   color: #fff;
@@ -41,10 +41,12 @@ input {
 
 input[type="button"] {
   cursor: pointer;
-  padding: 2vh 1em; /* use viewport height to scale padding */
+  padding: 2vh 5%; /* added same padding as form */
   font-size: 4vh; /* use viewport height to scale button size */
+  font-weight: bold; /* added bold font */
   background-color: #fbec53;
   color: #121212;
+  font-family: Helvetica, Arial, sans-serif; /* ensure Helvetica font is used */
 }
 
 input[type="button"]:hover {
