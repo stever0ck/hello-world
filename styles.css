@@ -15,7 +15,7 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: space-around; /* evenly distribute space */
+  justify-content: space-between; /* change to space-between */
   height: 100%;
   width: 100%;
   padding: 2% 5%; /* add padding on left and right */
@@ -23,9 +23,15 @@ form {
   border-radius: 0;
 }
 
+.input-group {
+  /* add input-group style */
+  display: flex;
+  flex-direction: column;
+}
+
 label {
   font-size: 3vh; /* larger font size for labels */
-  margin-bottom: 0; /* remove gap */
+  margin-bottom: 1vh; /* small bottom margin */
 }
 
 input {
@@ -36,7 +42,6 @@ input {
   font-size: 4vh; /* use viewport height to scale input size */
   padding: 2vh 5%; /* adjusted padding to match form and button */
   box-sizing: border-box; /* include padding and border in element's total width */
-  margin-bottom: 2vh; /* use viewport height to scale margin */
   background-color: #4a4a4a;
   color: #fff;
 }
