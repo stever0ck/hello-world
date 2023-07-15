@@ -18,16 +18,17 @@ form {
   justify-content: space-around; /* evenly distribute space */
   height: 100%;
   width: 100%;
-  padding: 2%; /* add some padding around form */
+  padding: 2% 5%; /* add padding on left and right */
   background: #2d2d2d;
   border-radius: 0;
 }
 
-label, input {
-  width: 100%;
+label {
+  font-size: 3vh; /* larger font size for labels */
 }
 
 input {
+  width: 100%;
   border: none;
   border-radius: 25px;
   outline: none;
