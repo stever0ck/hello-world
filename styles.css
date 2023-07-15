@@ -25,6 +25,7 @@ form {
 
 label {
   font-size: 3vh; /* larger font size for labels */
+  margin-bottom: 0; /* remove gap */
 }
 
 input {
