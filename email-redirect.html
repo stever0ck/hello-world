@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <form id="contact-form" method="get" enctype="text/plain">
-      <div class="input-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your Name">
-      </div>
-      <div class="input-group">
-        <label for="phone">Phone:</label>
-        <input type="text" id="phone" name="phone" placeholder="Your Phone Number">
-      </div>
-      <input type="button" value="Submit" onclick="sendEmail()">
-    </form>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<form id="contact-form">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="phone">Phone:</label><br>
+  <input type="text" id="phone" name="phone"><br><br>
+  <input type="button" value="Submit" onclick="sendEmail()">
+</form> 
 
 <script>
 function sendEmail() {
   var name = document.getElementById('name').value;
   var phone = document.getElementById('phone').value;
   var subject = name + ' <> Steve Rock';
-  var body = 'Name: ' + name + ' '\n + 'Phone: ' + phone;
+  var body = 'Name: ' + name + ' ' + 'Phone: ' + phone;
   window.location.href = 'mailto:steve@theyellowwoodseries.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 }
 </script>
 
 </body>
 </html>
-
 
 
