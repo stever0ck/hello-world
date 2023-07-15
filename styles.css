@@ -33,7 +33,8 @@ input {
   border-radius: 25px;
   outline: none;
   font-size: 4vh; /* use viewport height to scale input size */
-  padding: 2vh 5%; /* added same padding as form */
+  padding: 2vh 5%; /* adjusted padding to match form and button */
+  box-sizing: border-box; /* include padding and border in element's total width */
   margin-bottom: 2vh; /* use viewport height to scale margin */
   background-color: #4a4a4a;
   color: #fff;
