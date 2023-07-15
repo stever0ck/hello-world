@@ -15,45 +15,37 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1em; /* added padding */
-  height: calc(100% - 2em); /* accounting for padding */
-  width: calc(100% - 2em); /* accounting for padding */
+  justify-content: space-around; /* evenly distribute space */
+  height: 100%;
+  width: 100%;
+  padding: 2%; /* add some padding around form */
   background: #2d2d2d;
   border-radius: 0;
 }
 
 label, input {
   width: 100%;
-  padding: 1em; /* increased padding */
 }
 
 input {
-  margin-bottom: 1em;
   border: none;
   border-radius: 25px;
   outline: none;
-  font-size: 1.2em; /* increased font size */
+  font-size: 4vh; /* use viewport height to scale input size */
+  padding: 2vh 1em; /* use viewport height to scale padding */
+  margin-bottom: 2vh; /* use viewport height to scale margin */
   background-color: #4a4a4a;
   color: #fff;
 }
 
 input[type="button"] {
   cursor: pointer;
-  padding: 1em; /* increased padding */
-  font-size: 1.2em; /* increased font size */
+  padding: 2vh 1em; /* use viewport height to scale padding */
+  font-size: 4vh; /* use viewport height to scale button size */
   background-color: #fbec53;
   color: #121212;
 }
 
 input[type="button"]:hover {
   background-color: #e8d048;
-}
-
-/* Adjusting form for smaller screen sizes */
-@media (max-width: 600px) {
-  input {
-    font-size: 1.5em; /* even larger font size for mobile */
-    padding: 1.5em; /* even larger padding for mobile */
-  }
 }
