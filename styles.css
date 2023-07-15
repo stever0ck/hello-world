@@ -15,23 +15,22 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* change to space-between */
+  justify-content: space-between;
   height: 100%;
   width: 100%;
-  padding: 2% 5%; /* add padding on left and right */
+  padding: 5%; /* Increased padding at top and bottom */
   background: #2d2d2d;
   border-radius: 0;
 }
 
 .input-group {
-  /* add input-group style */
   display: flex;
   flex-direction: column;
 }
 
 label {
-  font-size: 3vh; /* larger font size for labels */
-  margin-bottom: 1vh; /* small bottom margin */
+  font-size: 3vh;
+  margin-bottom: 1vh;
 }
 
 input {
@@ -39,21 +38,22 @@ input {
   border: none;
   border-radius: 25px;
   outline: none;
-  font-size: 4vh; /* use viewport height to scale input size */
-  padding: 2vh 5%; /* adjusted padding to match form and button */
-  box-sizing: border-box; /* include padding and border in element's total width */
+  font-size: 4vh;
+  padding: 2vh 5%;
+  box-sizing: border-box;
   background-color: #4a4a4a;
   color: #fff;
+  margin-bottom: 0; /* Removed space between input fields */
 }
 
 input[type="button"] {
   cursor: pointer;
-  padding: 2vh 5%; /* added same padding as form */
-  font-size: 4vh; /* use viewport height to scale button size */
-  font-weight: bold; /* added bold font */
+  padding: 2vh 5%;
+  font-size: 4vh;
+  font-weight: bold;
   background-color: #fbec53;
   color: #121212;
-  font-family: Helvetica, Arial, sans-serif; /* ensure Helvetica font is used */
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 input[type="button"]:hover {
